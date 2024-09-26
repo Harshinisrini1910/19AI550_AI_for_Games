@@ -56,7 +56,7 @@ def plate_stack_game():
             plate_stack.push(plate)
         elif choice == '2':
             plate_stack.pop()
-        elif choice == '3':
+        elif choice == '3':  
             plate_stack.view_stack()
         elif choice == '4':
             print("Exiting the game. Goodbye!")
